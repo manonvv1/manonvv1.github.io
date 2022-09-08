@@ -1,3 +1,5 @@
+/* Blokken met tekst en opmaak */
+
 body {
     background-image: url(https://images6.alphacoders.com/111/1110165.png);
     background-repeat: no-repeat;
@@ -5,10 +7,10 @@ body {
 }
 
 .profile {
-    width: 30%;
-    background-color: rgb(253, 205, 174);
-    margin-left: 245px;
-    margin-right: 245px;
+    width: 35%;
+    background-color: rgb(255, 186, 141);
+    margin-left: 260px;
+    margin-right: 260px;
     padding-bottom: 15px;
     padding-top: 5px;
     padding-left: 20px;
@@ -19,18 +21,122 @@ body {
 }
 
 .hobbys {
-    width: 30%;
-    background-color: rgb(253, 205, 174);
-    margin-left: 245px;
-    margin-right: 245px;
+    width: 35%;
+    background-color: rgb(255, 186, 141);
+    margin-left: 260px;
+    margin-right: 260px;
     padding-bottom: 15px;
     padding-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
-    border-style: solid
+    border-style: solid;
 }
+
+.kopje {
+    width: 35%;
+    background-color:rgb(205, 142, 100);
+    margin-left: 260px;
+    margin-right: 260px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style: solid;
+}
+
+.table {
+    width: 35%;
+    background-color: rgb(255, 186, 141);
+    margin-left: 260px;
+    margin-right: 260px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style: solid;
+}
+
+.zijkant {
+    background-color:rgb(205, 142, 100);
+    width:250px;
+    margin-right:95%;
+    height:730px;
+    position:fixed;
+    border-style: solid;
+}
+
+.navigation {
+    background-color: rgb(205, 142, 100);
+    width:250px;
+    border:solid;
+
+}
+
+table, tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 400px;
+    text-align:center;
+    font-family: Trebuchet MS;
+}
+
+.strenghts {
+    width: 15%;
+    background-color: rgb(255, 186, 141);
+    margin-left: 260px;
+    margin-right: 260px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style: solid;
+}
+
+hr {
+    height: 3px;
+    background-color: rgb(255, 203, 157);
+    border-color: rgb(0, 0, 0);
+
+}
+
+.tweede-kopje {
+    height: 2px;
+    background-color:  rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+
+/*Links*/
+
+a {
+    color: rgb(165, 105, 5);
+    font-family: Trebuchet MS;
+}
+
+a:hover {
+    color: rgb(165, 105, 52)
+}
+
+.link-zijkant {
+    color: rgb(0, 0, 0);
+    font-family: Trebuchet MS;
+}
+
+.link-school {
+    color: rgb(0, 0, 0);
+    font-family: Trebuchet MS;
+    font-size:larger;
+
+}
+
+/*lettertypes*/
 
 h1 {
     font-family: lucida handwriting;
@@ -56,6 +162,33 @@ h3, hz-website {
 
 }
 
+p,
+ul,
+ol {
+    color: rgb(0, 0, 0);
+    font-family: Trebuchet MS;
+    text-align: left;
+    font-size:smaller;
+}
+
+.font {
+    color:rgb(165, 105, 52)
+}
+
+.tekst-zijkant {
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.characteristics {
+    font-family: lucida handwriting;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+/*items*/
+
 .vraag {
     text-align: left;
     margin-bottom: 5px;
@@ -76,30 +209,60 @@ h3, hz-website {
     width: 50%;
 }
 
-.navigation {
-    background-color: rgb(253, 205, 174)
+.goed {
+    text-align: left;
+    font-size: small;
+    margin-bottom: 5px;
+    margin-top: 5px;
 
 }
+
+.slecht {
+    text-align: right;
+    width: 50%;
+    font-size: small;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+/*navigatie*/
 
 nav {
     position:fixed;
 }
 
-p,
-ul {
-    color: rgb(0, 0, 0);
-    font-family: Trebuchet MS;
-    text-align: left;
-    font-size:smaller;
+/*plaatjes*/
+
+.logo {
+    display: block;
+    width: 50px;
+    height: 50px;
 }
 
+.content {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: 50%;
 
+}
 
-hr {
-    height: 3px;
-    background-color: rgb(165, 105, 52);
-    border-color: rgb(165, 105, 52);
+.hz-logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    position:fixed;
+    margin-left:auto;
+}
 
+.foto-zijkant {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
 }
 
 .sterren {
@@ -118,135 +281,18 @@ hr {
     height: 50px
 }
 
-a {
-    color: rgb(165, 105, 5);
-    font-family: Trebuchet MS;
-}
-
-a:hover {
-    color: rgb(165, 105, 52)
-}
-
-.kopje {
-    width: 30%;
-    background-color:rgb(253, 205, 174);
-    margin-left: 245px;
-    margin-right: 245px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border-style: solid
-}
-
-.characteristics {
-    font-family: lucida handwriting;
-    color: rgb(0, 0, 0);
-    text-align: left;
-}
-
-.goed {
-    text-align: left;
-    font-size: small;
-    margin-bottom: 5px;
-    margin-top: 5px;
-
-
-}
-
-.slecht {
-    text-align: right;
-    width: 50%;
-    font-size: small;
-    margin-bottom: 5px;
-    margin-top: 5px;
-
-
-}
-
-.logo {
+.pink-mercy {
     display: block;
-    width: 50px;
-    height: 50px;
-}
-
-.content {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
     width: 50%;
     height: 50%;
-
-}
-
-.font {
-    color:rgb(165, 105, 52)
-}
-
-.hz-logo {
-    display: block;
-    width: 5%;
-    height: 5%;
-    position:fixed;
     margin-left:auto;
+    margin-right:auto;
 }
 
-table, tr, th, td {
-    border: 2px solid black;
-    border-collapse: collapse;
-    width: 400px;
-    text-align:center;
-    font-family: Trebuchet MS;
-}
-
-
-.table {
-    width: 30%;
-    background-color: rgb(253, 205, 174);
-    margin-left: 245px;
-    margin-right: 245px;
-    padding-bottom: 15px;
-    padding-top: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border-style: solid
-
-}
-
-.zijkant {
-    background-color:rgb(253, 205, 174);
-    width:230px;
-    margin-right:95%;
-    height:730px;
-    position:fixed;
-    border-style: solid
-}
-
-.tekst-zijkant {
-    margin-bottom: 5px;
-    margin-top: 5px;
-
-}
-
-.foto-zijkant {
+.eigenschappen {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.link-zijkant {
-    color: rgb(0, 0, 0);
-    font-family: Trebuchet MS;
-}
-
-.link-school {
-    color: rgb(0, 0, 0);
-    font-family: Trebuchet MS;
-    text-align:center;
-    font-size:larger;
-
+    width: 75%;
+    height: 75%;
+    margin-left:auto;
+    margin-right:auto;
 }
