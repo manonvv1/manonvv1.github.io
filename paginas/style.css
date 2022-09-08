@@ -1,14 +1,14 @@
 /* Blokken met tekst en opmaak */
 
 body {
-    background-image: url(https://images6.alphacoders.com/111/1110165.png);
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/541/707/751/touhou-izayoi-sakuya-anime-girls-winter-wallpaper-b9d0a88df1aa9d3b1607988f3051563d.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .profile {
     width: 35%;
-    background-color: rgb(255, 186, 141);
+    background-color: rgb(255, 255, 255);
     margin-left: 260px;
     margin-right: 260px;
     padding-bottom: 15px;
@@ -22,7 +22,7 @@ body {
 
 .hobbys {
     width: 35%;
-    background-color: rgb(255, 186, 141);
+    background-color: rgb(255, 255, 255);
     margin-left: 260px;
     margin-right: 260px;
     padding-bottom: 15px;
@@ -36,7 +36,7 @@ body {
 
 .kopje {
     width: 35%;
-    background-color:rgb(205, 142, 100);
+    background-color:rgb(251, 231, 255);
     margin-left: 260px;
     margin-right: 260px;
     padding-bottom: 5px;
@@ -50,7 +50,7 @@ body {
 
 .table {
     width: 35%;
-    background-color: rgb(255, 186, 141);
+    background-color: rgb(255, 255, 255);
     margin-left: 260px;
     margin-right: 260px;
     padding-bottom: 15px;
@@ -63,7 +63,7 @@ body {
 }
 
 .zijkant {
-    background-color:rgb(205, 142, 100);
+    background-color:rgb(251, 231, 255);
     width:250px;
     margin-right:95%;
     height:730px;
@@ -72,7 +72,7 @@ body {
 }
 
 .navigation {
-    background-color: rgb(205, 142, 100);
+    background-color: rgb(251, 231, 255);
     width:250px;
     border:solid;
 
@@ -88,7 +88,7 @@ table, tr, th, td {
 
 .strenghts {
     width: 15%;
-    background-color: rgb(255, 186, 141);
+    background-color: rgb(255, 255, 255);
     margin-left: 260px;
     margin-right: 260px;
     padding-bottom: 15px;
@@ -102,26 +102,26 @@ table, tr, th, td {
 
 hr {
     height: 3px;
-    background-color: rgb(255, 203, 157);
+    background-color: rgb(201, 165, 222);
     border-color: rgb(0, 0, 0);
 
 }
 
 .tweede-kopje {
     height: 2px;
-    background-color:  rgb(0, 0, 0);
-    border-color: rgb(0, 0, 0);
+    background-color:  rgb(255, 255, 255);
+    border-color: rgb(193, 147, 199);
 }
 
 /*Links*/
 
 a {
-    color: rgb(165, 105, 5);
+    color: rgb(0, 0, 0);
     font-family: Trebuchet MS;
 }
 
 a:hover {
-    color: rgb(165, 105, 52)
+    color: rgb(156, 104, 169);
 }
 
 .link-zijkant {
@@ -147,7 +147,7 @@ h1 {
 
 h2 {
     font-family: lucida handwriting;
-    color: rgb(0, 0, 0);
+    color: rgb(156, 104, 169);
     text-align: center;
 
 }
@@ -172,7 +172,7 @@ ol {
 }
 
 .font {
-    color:rgb(165, 105, 52)
+    color:rgb(156, 104, 169);
 }
 
 .tekst-zijkant {
@@ -244,8 +244,8 @@ nav {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
-    height: 50%;
+    width: 65%;
+    height: 65%;
 
 }
 
@@ -253,16 +253,17 @@ nav {
     display: block;
     width: 100px;
     height: 100px;
-    position:fixed;
-    margin-left:auto;
+    margin-right:auto;
 }
 
 .foto-zijkant {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 150px;
-    height: 150px;
+    width: 204px;
+    height: 38px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .sterren {
@@ -283,8 +284,8 @@ nav {
 
 .pink-mercy {
     display: block;
-    width: 50%;
-    height: 50%;
+    width: 65%;
+    height: 65%;
     margin-left:auto;
     margin-right:auto;
 }
