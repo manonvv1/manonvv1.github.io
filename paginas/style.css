@@ -79,9 +79,9 @@ body {
 }
 
 table, tr, th, td {
-    border: 2px solid black;
+    border: 2px solid rgb(201, 165, 222);
     border-collapse: collapse;
-    width: 400px;
+    width: 525px;
     text-align:center;
     font-family: Trebuchet MS;
 }
