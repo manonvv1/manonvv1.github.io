@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
 }
 
-.profile {
+.profile, .hobbys, .table, .strengths{
     width: 35%;
     background-color: rgb(255, 255, 255);
     margin-left: 260px;
@@ -20,18 +20,8 @@ body {
     border-style: solid
 }
 
-.hobbys {
-    width: 35%;
-    background-color: rgb(255, 255, 255);
-    margin-left: 260px;
-    margin-right: 260px;
-    padding-bottom: 15px;
-    padding-top: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border-style: solid;
+div.profile, div.hobbys, div.table, div.strenghts {
+    opacity: 0.9;
 }
 
 .kopje {
@@ -40,20 +30,6 @@ body {
     margin-left: 260px;
     margin-right: 260px;
     padding-bottom: 5px;
-    padding-top: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border-style: solid;
-}
-
-.table {
-    width: 35%;
-    background-color: rgb(255, 255, 255);
-    margin-left: 260px;
-    margin-right: 260px;
-    padding-bottom: 15px;
     padding-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
@@ -78,28 +54,6 @@ body {
 
 }
 
-table, tr, th, td {
-    border: 2px solid rgb(201, 165, 222);
-    border-collapse: collapse;
-    width: 525px;
-    text-align:center;
-    font-family: Trebuchet MS;
-}
-
-.strenghts {
-    width: 15%;
-    background-color: rgb(255, 255, 255);
-    margin-left: 260px;
-    margin-right: 260px;
-    padding-bottom: 15px;
-    padding-top: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border-style: solid;
-}
-
 hr {
     height: 3px;
     background-color: rgb(201, 165, 222);
@@ -113,21 +67,32 @@ hr {
     border-color: rgb(193, 147, 199);
 }
 
+
+/*Table*/
+
+table, tr, th, td {
+    border: 2px solid rgb(201, 165, 222);
+    border-collapse: collapse;
+    width: 525px;
+    text-align:center;
+    font-family: Trebuchet MS;
+}
+
+th, .quartile {
+    background-color:rgb(251, 231, 255);
+    font-weight:bold;
+}
 /*Links*/
 
-a {
+a, .link-zijkant {
     color: rgb(0, 0, 0);
     font-family: Trebuchet MS;
 }
 
-a:hover {
+a:hover, .link-pagina {
     color: rgb(156, 104, 169);
 }
 
-.link-zijkant {
-    color: rgb(0, 0, 0);
-    font-family: Trebuchet MS;
-}
 
 .link-school {
     color: rgb(0, 0, 0);
@@ -135,6 +100,7 @@ a:hover {
     font-size:larger;
 
 }
+
 
 /*lettertypes*/
 
@@ -145,6 +111,10 @@ h1 {
 
 }
 
+h1:hover {
+    color:rgb(149, 63, 60);
+}
+
 h2 {
     font-family: lucida handwriting;
     color: rgb(156, 104, 169);
@@ -152,7 +122,7 @@ h2 {
 
 }
 
-h3, hz-website {
+h3, .hz-website {
     font-family: Trebuchet MS;
     color: rgb(0, 0, 0);
     text-align: left;
@@ -217,6 +187,14 @@ ol {
 
 }
 
+.goed:hover {
+    background-color:rgb(205, 255, 205)
+}
+
+.slecht:hover {
+    background-color:rgb(255, 150, 150)
+}
+
 .slecht {
     text-align: right;
     width: 50%;
@@ -246,6 +224,7 @@ nav {
     margin-left: auto;
     width: 65%;
     height: 65%;
+    border-radius:10px;
 
 }
 
@@ -264,6 +243,7 @@ nav {
     height: 38px;
     margin-bottom: 30px;
     margin-top: 30px;
+    border-radius:10px;
 }
 
 .hartje {
@@ -274,20 +254,13 @@ nav {
     height: 25px
 }
 
-.maan {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 50px;
-    height: 50px
-}
-
 .pink-mercy, .portfolio {
     display: block;
     width: 65%;
     height: 65%;
     margin-left:auto;
     margin-right:auto;
+    border-radius:10px;
 }
 
 .eigenschappen, .espeon, .motivatie {
@@ -296,4 +269,5 @@ nav {
     height: 75%;
     margin-left:auto;
     margin-right:auto;
+    border-radius:10px;
 }
