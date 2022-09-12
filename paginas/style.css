@@ -282,7 +282,7 @@ nav {
     height: 50px
 }
 
-.pink-mercy {
+.pink-mercy, .portfolio {
     display: block;
     width: 65%;
     height: 65%;
@@ -290,7 +290,7 @@ nav {
     margin-right:auto;
 }
 
-.eigenschappen {
+.eigenschappen, .espeon, .motivatie {
     display: block;
     width: 75%;
     height: 75%;
