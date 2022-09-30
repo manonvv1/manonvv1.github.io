@@ -1,4 +1,4 @@
-/* Blokken met tekst en opmaak */
+/* Div blokken */
 
 body {
     background-image: url(https://r4.wallpaperflare.com/wallpaper/541/707/751/touhou-izayoi-sakuya-anime-girls-winter-wallpaper-b9d0a88df1aa9d3b1607988f3051563d.jpg);
@@ -24,7 +24,7 @@ div.profile, div.hobbys, div.table, div.strenghts {
     opacity: 0.9;
 }
 
-.kopje {
+.heading {
     width: 45%;
     background-color:rgb(251, 231, 255);
     margin-left: 260px;
@@ -38,7 +38,7 @@ div.profile, div.hobbys, div.table, div.strenghts {
     border-style: solid;
 }
 
-.zijkant {
+.sidebar {
     background-color:rgb(251, 231, 255);
     width:250px;
     margin-right:95%;
@@ -48,7 +48,7 @@ div.profile, div.hobbys, div.table, div.strenghts {
 }
 
 .navigation {
-    background-color: rgb(251, 231, 255);
+    background-color: rgb(255, 255, 255);
     width:250px;
     border:solid;
 
@@ -61,7 +61,7 @@ hr {
 
 }
 
-.tweede-kopje {
+.second-heading {
     height: 2px;
     background-color:  rgb(255, 255, 255);
     border-color: rgb(193, 147, 199);
@@ -82,14 +82,27 @@ th, .quartile {
     background-color:rgb(251, 231, 255);
     font-weight:bold;
 }
+
+.work-in-progress {
+    background-color:rgb(217, 217, 255);
+}
+
+.passed-exam {
+    background-color:rgb(222, 255, 222)
+}
+
+.failed-exam {
+    background-color:rgb(255, 201, 201)
+}
+
 /*Links*/
 
-a, .link-zijkant {
+a, .link-sidebar {
     color: rgb(0, 0, 0);
     font-family: Trebuchet MS;
 }
 
-a:hover, .link-pagina {
+a:hover, .link-page {
     color: rgb(156, 104, 169);
 }
 
@@ -145,7 +158,7 @@ ol {
     color:rgb(156, 104, 169);
 }
 
-.tekst-zijkant {
+.text-sidebar {
     margin-bottom: 10px;
     margin-top: 10px;
 
@@ -159,14 +172,14 @@ ol {
 
 /*items*/
 
-.vraag {
+.question {
     text-align: left;
     margin-bottom: 5px;
     margin-top: 5px;
 
 }
 
-.antwoord {
+.answer {
     text-align: right;
     width: 50%;
     margin-bottom: 5px;
@@ -174,12 +187,12 @@ ol {
 
 }
 
-.item p {
+.item p{
     display: inline-block;
     width: 50%;
 }
 
-.goed {
+.good {
     text-align: left;
     font-size: small;
     margin-bottom: 5px;
@@ -187,15 +200,15 @@ ol {
 
 }
 
-.goed:hover {
+.good:hover {
     background-color:rgb(205, 255, 205)
 }
 
-.slecht:hover {
+.bad:hover {
     background-color:rgb(255, 150, 150)
 }
 
-.slecht {
+.bad {
     text-align: right;
     width: 50%;
     font-size: small;
@@ -235,7 +248,7 @@ nav {
     margin-right:auto;
 }
 
-.foto-zijkant {
+.picture-sidebar {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -246,7 +259,7 @@ nav {
     border-radius:10px;
 }
 
-.hartje {
+.heart {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -263,7 +276,7 @@ nav {
     border-radius:10px;
 }
 
-.eigenschappen, .espeon, .motivatie {
+.characteristics-picture, .espeon, .motivation {
     display: block;
     width: 75%;
     height: 75%;
